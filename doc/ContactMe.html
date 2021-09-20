@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<title>CSCI225 Homepage of Brian Kram</title>
+		<link rel="stylesheet" href="./../css/main.css">
+	</head>
+	<body>
+		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CBBvXth-O_g" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<form name="feedback">
+			<ul>
+				<li>
+					<label>
+						First Name
+						<input type="text" name="fname" placeholder="anonymous" required>
+					</label>
+				</li>
+				<li>
+					<label>
+						Last Name
+						<input type="text" name="lname" placeholder="anonymous" required>
+					</label>
+				</li>
+				<li>
+					<label>
+						E-Mail Address
+						<input type="email" name="mail" placeholder="name@domain.com">
+					</label>
+				</li>
+				<li>
+					<fieldset>
+						<legend>Would you recommend this site?</legend>
+							<ul>
+								<li>
+									<label>
+										Yes
+										<input type="radio" name="recommend" value="y">
+									</label>
+								</li>
+								<li>
+									<label>
+										No
+										<input type="radio" name="recommend" value="n">
+									</label>
+								</li>
+							</ul>
+					</fieldset>
+				</li>
+				<li>
+					<label>
+						Favorite Site
+						<select name="fsite" id="fsite">
+							<option value="dg">DuckDuckGo</option>
+							<option value="dw">DistroWatch</option>
+							<option value="sd">SlashDot</option>
+							<option value="lk">LKML</option>
+						</select>
+					</label>
+				</li>
+				<li>
+					<label>
+						Worst Color
+						<input type="color" name="color">
+					</label>
+				</li>
+				<li>
+					<label>
+						When does the fat lady sing?
+						<input type="datetime-local" name="train">
+					</label>
+				</li>
+				<li>
+					<label>
+						Credit Card number
+						<input type="number">
+					</label>
+				</li>
+				<li>
+					<label>
+						Rate this site
+						<input type="range" name="rating" max="10" min="1" value="10">
+					</label>
+				</li>
+				<li>
+					<label>
+						Comments?
+						<textarea name="comment"></textarea>
+					</label>
+				</li>
+				<li>
+					<input type="submit" value="Submit" id="submit">
+				</li>
+			</ul>
+		</form>
+	</body>
+</html>
