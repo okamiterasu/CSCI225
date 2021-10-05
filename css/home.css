@@ -1,0 +1,182 @@
+
+/* Structure */
+body, main
+{
+	display: grid;
+}
+body
+{
+	margin: 0px;
+}
+h1
+{
+	border: 1px solid black;
+	border-radius: 1ex;
+}
+.navbar
+{
+	margin-left: 1ex;
+	grid-column: 1;
+	grid-row: 1;
+}
+.navbar ul
+{
+	/* padding: 0px; */
+	margin: 0px;
+	padding: 1ex;
+	border-radius: 1ex;
+	position: sticky;
+	top:1ex;
+	/* Option 2:  Hide the navigation.*/
+	display: none;
+}
+.navbar ul>li
+{
+	margin-bottom: .5ex;
+	border: 1px solid #222;
+	border-radius: 1ex;
+}
+.navbar ul>li:last-child
+{
+	margin-bottom: 0px;
+}
+main
+{
+	padding-left: 1ex;
+	grid-column: 2;
+	grid-row: 1;
+}
+.portfolio p:first
+{
+	box-shadow: 3ex 2ex 2ex black;
+}
+.introduction
+{
+	display: grid;
+	grid-template-columns: 1fr auto;
+	grid-template-rows: auto 1fr;
+	position: sticky;
+	top: 0px;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom-left-radius: 1ex;
+}
+.introduction h1
+{
+	grid-column: 1;
+	grid-row: 1;
+}
+.introduction p
+{
+	grid-column: 1;
+	grid-row: 2;
+	/* max-width: 50ex;
+	min-width: 20ex; */
+}
+.introduction img
+{
+	grid-column: 2;
+	grid-row: 1/3;
+	
+}
+.portfolio, .contact, .schedule
+{
+	border-right: 3px solid black;
+	border-bottom: 3px solid black;
+}
+footer
+{
+	position: sticky;
+	bottom: 0px;
+}
+table
+{
+	border-collapse: collapse;
+}
+td
+{
+	border: 1px solid #111;
+}
+.class
+{
+	border: 1px solid #111;
+}
+table tr:first-child th:first-child
+{
+	border: none;
+}
+
+/* Text */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+h1
+{
+	text-transform: uppercase;
+	letter-spacing: 0.2ex;
+	text-shadow: 0.2ex 0.2ex #111;
+}
+h1::first-letter
+{
+	font-size: larger;
+}
+p
+{
+	line-height: 5ex;
+	font-family: "Source Code Pro", "Consolas", monospace;
+	text-align: center;
+}
+a
+{
+	text-decoration: none;
+}
+ul, li
+{
+	font-weight: bold;
+}
+.navbar ul
+{
+	list-style: none;
+}
+footer
+{
+	text-align: right;
+}
+table td
+{
+	font-size: smaller;
+}
+
+/* Color */
+body
+{
+	color: white;
+	/* background-color: #333; */
+	background-image: url("./..//img/5u6hc786.bmp");
+}
+a
+{
+	color: salmon;
+}
+a:hover
+{
+	color: orangered;
+}
+ul, li
+{
+	color: orange;
+}
+.navbar ul
+{
+	background-color: #222;
+}
+.introduction
+{
+	background-color: #333;
+}
+footer
+{
+	background-color: #333;
+}
+table tbody tr:nth-child(even)
+{
+	background-color: #111;
+}
