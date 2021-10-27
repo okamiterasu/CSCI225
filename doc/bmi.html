@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<title>BMI Calculator</title>
+		<link rel="stylesheet" href="./../css/bmi.css">
+	</head>
+	<body>
+		<section id="form">
+			<ul>
+				<li>
+					<label>
+						Name
+						<input id="name" type="text">
+					</label>
+				</li>
+				<li>
+					<label>
+						Age
+						<select id="age">
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+							<option value="13">13</option>
+							<option value="14">14</option>
+							<option value="15">15</option>
+							<option value="16">16</option>
+							<option value="17">17</option>
+							<option value="18">18</option>
+							<option value="19">19</option>
+							<option value="20">20</option>
+							<option value="21">21+</option>
+						</select>
+					</label>
+				</li>
+				<li>
+					<label>
+						Height
+						<input id="height" type="number" placeholder="inches">
+					</label>
+				</li>
+				<li>
+					<label>
+						Weight
+						<input id="weight" type="number" placeholder="pounds">
+					</label>
+				</li>
+				<li>
+					<button id="calculate">Calculate</button>
+				</li>
+			</ul>
+		</section>
+		<section id="metercontainer">
+			<meter id="meter" value="0"></meter>
+		</section>
+		<section id="miicontainer">
+			<img src="./../img/s.png" width="132" height="354" id="mii" alt="mii">
+		</section>
+		<p id="output"></p>
+		<script src="./../js/bmi.js"></script>
+	</body>
+</html>

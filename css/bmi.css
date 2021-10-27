@@ -1,0 +1,19 @@
+body
+{
+	display: grid;
+	grid-template-columns: auto 30px auto 50%;
+	align-content: center;
+}
+
+#metercontainer, #miicontainer
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#meter
+{
+	min-width: 300px;
+	transform: rotate(-90deg);
+}
