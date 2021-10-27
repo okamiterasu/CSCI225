@@ -1,0 +1,64 @@
+/* Structure */
+/* form
+{
+	max-width: 560px;
+	outline: 1px solid black;
+}
+
+form ul>li
+{
+	display: flex;
+	justify-content: flex-end;
+}
+form label
+{
+	vertical-align: middle;
+} */
+
+/* form
+{
+	max-width: 800px;
+	outline: 1px solid black;
+}
+
+form .control
+{
+	display: flex;
+	justify-content: flex-end;
+	margin: .5em auto;
+}
+
+form label
+{
+	padding-right: 1em;
+}
+
+fieldset .control
+{
+	margin: initial;
+}
+
+fieldset .control label
+{
+	padding-right: initial;
+}
+
+table
+{
+	border-collapse: collapse;
+}
+
+td
+{
+	border: 1px solid lightgray;
+}
+
+.class
+{
+	border: 1px solid black;
+}
+
+table tr:first-child th:first-child
+{
+	border: none;
+} */
