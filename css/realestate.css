@@ -1,0 +1,88 @@
+body
+{
+	background-image: url("../img/estate.bmp");
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 0px;
+}
+
+nav ul
+{
+	display: flex;
+	list-style: none;
+	padding-left: 0px;
+	margin-top: 0px;
+}
+
+nav a
+{
+	text-decoration: none;
+	font-weight: bold;
+	padding: 1ex;
+	color: white;
+	border: 1px solid #3f6992;
+	background-color: #4a719f;
+}
+
+main
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	max-width: 1600px;
+}
+
+table
+{
+	visibility: hidden;
+	background-color: white;
+	border-collapse: collapse;
+}
+
+th
+{
+	text-align: left;
+	padding-right: 10ex;
+}
+
+td, th
+{
+	border: 1px solid darkgrey;
+}
+
+tbody tr:nth-child(even)
+{
+	background-color: lightgrey;
+}
+
+#calculator
+{
+	visibility: hidden;
+	width: 50ex;
+}
+
+#calculator h2, #calculator button
+{
+	background-color: #8fb2d5;
+	color: white;
+	text-align: center;
+	margin-bottom: 0px;
+	width: 100%;
+}
+
+#calculator ul
+{
+	list-style: none;
+	background-color: #d7e2ed;
+	margin: 0px;
+	padding: 2ex;
+}
+
+#calculator li
+{
+	margin: 2ex;
+}
+
+#calculator input
+{
+	background-color:lightyellow;
+}
